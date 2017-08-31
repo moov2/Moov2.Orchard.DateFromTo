@@ -1,0 +1,13 @@
+﻿Name: Date From To
+AntiForgery: enabled
+Author: Moov2
+Website: https://github.com/moov2/Moov2.Orchard.DateFromTo
+Version: 0.1
+OrchardVersion: 1.10.2
+Category: Content
+Description: Adds date from and to fields to content types.
+Features:
+    Moov2.Orchard.DateFromTo:
+        Name: Date From To
+        Description: Adds date from and to fields to content types.
+        Category: Content
