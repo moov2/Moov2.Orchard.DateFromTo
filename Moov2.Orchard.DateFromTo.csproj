@@ -78,6 +78,8 @@
     <Compile Include="Models\DateFromToPart.cs" />
     <Compile Include="Models\DateFromToPartRecord.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Search\IDateFromToSearchParameters.cs" />
+    <Compile Include="Search\DateFromToSearchHelpers.cs" />
     <Compile Include="ViewModels\EditDateFromToViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
