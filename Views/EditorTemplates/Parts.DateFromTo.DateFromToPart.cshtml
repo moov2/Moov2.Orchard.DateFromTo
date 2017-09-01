@@ -1,0 +1,14 @@
+﻿@model Moov2.Orchard.DateFromTo.ViewModels.EditDateFromToViewModel
+
+
+<fieldset>
+    <label for="@Html.FieldIdFor(m => m.FromDateTimeEditor)">@T("From Date")</label>
+    @Html.EditorFor(m => m.FromDateTimeEditor)
+    <span class="hint">@T("Start date.")</span>
+</fieldset>
+
+<fieldset>
+    <label for="@Html.FieldIdFor(m => m.ToDateTimeEditor)">@T("To Date")</label>
+    @Html.EditorFor(m=>m.ToDateTimeEditor)
+    <span class="hint">@T("End date.")</span>
+</fieldset>
