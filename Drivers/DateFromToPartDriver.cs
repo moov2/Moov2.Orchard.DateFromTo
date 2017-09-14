@@ -37,7 +37,7 @@ namespace Moov2.Orchard.DateFromTo.Drivers
         #region Display
         protected override DriverResult Display(DateFromToPart part, string displayType, dynamic shapeHelper)
         {
-            return ContentShape("Parts_DateFromTo", () => shapeHelper.Parts_DateFromTo(FromDateTimeUtc: part.FromDateTimeUtc, ToDateTimeUtc: part.ToDateTimeUtc));
+            return ContentShape("Parts_DateFromTo", () => shapeHelper.Parts_DateFromTo(FromDateTime: part.FromDateTimeUtc?.ToLocalTime(), ToDateTime: part.ToDateTimeUtc?.ToLocalTime()));
         }
         #endregion
         #region Editor

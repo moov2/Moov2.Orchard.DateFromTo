@@ -1,14 +1,16 @@
 ﻿<Placement>
   <!-- available display shapes -->
-  
+
   <!--
   Parts_DateFromTo
   -->
-  
+
   <Place Parts_DateFromTo_Edit="Content:10"/>
 
-  <Match DisplayType="Detail">
-    <Place Parts_DateFromTo="Meta:1"/>
+  <Place Parts_DateFromTo="Meta:5"/>
+
+  <Match DisplayType="SummaryAdmin">
+    <Place Parts_DateFromTo="Meta:10"/>
   </Match>
-  
+
 </Placement>

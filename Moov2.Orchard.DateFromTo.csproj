@@ -105,7 +105,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\EditorTemplates\Parts.DateFromTo.DateFromToPart.cshtml" />
-    <Content Include="Views\Parts.DateFromTo.DateFromToPart.cshtml" />
+    <Content Include="Views\Parts.DateFromTo.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
