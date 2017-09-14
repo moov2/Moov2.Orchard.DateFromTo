@@ -11,3 +11,8 @@ Features:
         Name: Date From To
         Description: Adds date from and to fields to content types.
         Category: Content
+    Moov2.Orchard.DateFromTo.Projections:
+        Name: Date From To Projections
+        Description: Adds projection functionality for the Date From and To fields.
+        Category: Content
+        Dependencies: Moov2.Orchard.DateFromTo,Orchard.Projections
