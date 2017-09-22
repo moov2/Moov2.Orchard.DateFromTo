@@ -114,7 +114,7 @@
     <Content Include="Placement.info" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Views\EditorTemplates\Parts.DateFromTo.DateFromToPart.cshtml" />
+    <Content Include="Views\EditorTemplates\Parts.DateFromTo.DateFromToPart.cshtml" />
     <Content Include="Views\Parts.DateFromTo.cshtml" />
   </ItemGroup>
   <PropertyGroup>
